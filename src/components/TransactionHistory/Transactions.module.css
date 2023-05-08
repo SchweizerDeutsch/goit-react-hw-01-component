@@ -1,0 +1,20 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.item {
+  width: 280px;
+  text-align: center;
+  color: rgb(136, 134, 134);
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 15px;
+}
